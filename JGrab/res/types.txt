@@ -1,0 +1,10 @@
+##################################################
+#
+#here are some example tokens. Most of them don't work yet
+#
+##################################################
+#"simpleTD", "<td>.*?</td>", "just for testing"
+"HN Top Number(small)", "<a href=\".*?>","bla"
+#"HN Top Number", "<tr><td class=\"title\" align=\"right\" valign=\"top\">.*?</td><td><td class=\"title\"><a href", "the position of one news article in the top list of news.ycombinator.com"
+#"HN Top Link", "<td class=\"title\"><a href=\".*\">", "the URL from one news article in the top list of news.ycombinator.com"
+#"HN Title Name", "\">.*</a><span class=\"comhead\"> (.*) </span></td></tr>", "the name of one news article in the top list of news.ycombinator.com"
